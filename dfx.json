@@ -1,0 +1,20 @@
+{
+  "canisters": {
+    "rustWallet_backend": {
+      "candid": "src/rustWallet_backend/rustWallet_backend.did",
+      "package": "rustWallet_backend",
+      "type": "rust",
+
+      "wasm": "target/wasm32-unknown-unknown/release/rustWallet_backend.wasm"
+    }
+
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
